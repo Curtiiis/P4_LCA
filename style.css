@@ -1173,6 +1173,6 @@ blockquote p{
     font-family: 'et-line';
     font-style: normal;
     font-weight: 400;
-    src: local('fonts/et-line.woff'), url(fonts/et-line.woff) format('woff');   
+    src: url(fonts/et-line.woff) format('woff');   
     font-display: swap;
   }
