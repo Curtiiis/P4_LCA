@@ -23,6 +23,7 @@ Header set Cache-Control „max-age=2592000, public“
 <IfModule mod_expires.c>
 
 ExpiresActive On
+ExpiresDefault "access plus 1 year"
 
  # Images
   ExpiresByType image/jpeg "access plus 1 year"
