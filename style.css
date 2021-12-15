@@ -823,7 +823,13 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere-desktop.webp");
+}
+
+@media screen and (max-width: 768px) {
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere-mobile.webp");
+    }
 }
 
 .bg-banniere .row h2{
@@ -1113,7 +1119,8 @@ blockquote p{
 }
 
 @media screen and (max-width: 768px) {
-    .black-background {
+    .black-background-tr,
+    .black-background{
         padding: 40px 10px;
     }
 }
